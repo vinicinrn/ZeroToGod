@@ -1,0 +1,2 @@
+# ZeroToGod
+class and methods
