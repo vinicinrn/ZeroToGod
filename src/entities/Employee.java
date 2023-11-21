@@ -8,7 +8,7 @@ public class Employee {
     public double netSalary(){
         return grossSalary-tax;
     }
-    public void increaseSalary(double percentage){s
+    public void increaseSalary(double percentage){
         grossSalary = grossSalary + (grossSalary * percentage)/100;
     }
 
