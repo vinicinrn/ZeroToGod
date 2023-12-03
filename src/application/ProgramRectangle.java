@@ -10,7 +10,7 @@ public class ProgramRectangle {
         Scanner sc = new Scanner(System.in);
 
         Rectangle x; //assumindo um retangulo x qualquer
-        x = new Rectangle(); //instanciando o retangulo
+        x = new Rectangle(); //instanciando o retangulo //construtor padrão.
 
         System.out.print("Informe a base do retangulo: ");
         x.b = sc.nextDouble();

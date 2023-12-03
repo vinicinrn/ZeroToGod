@@ -2,7 +2,6 @@ package application;
 
 import entities.Product;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,22 +10,22 @@ public class ProgramProduct {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product(); //declarando
-
         System.out.println("Enter product data: ");
         System.out.print("Name:");
-        product.name = sc.nextLine();  //lendo o nome e guardando
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        product.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Quantity: ");
-        product.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+
+        Product product = new Product(name, price, quantity); //construtor
 
         System.out.println();
         System.out.println("Product data: " + product);
 
         System.out.println();
         System.out.println("Enter the number of products to be added in stock");
-        int quantity = sc.nextInt(); //get value
+        quantity = sc.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
