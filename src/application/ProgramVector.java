@@ -14,10 +14,13 @@ public class ProgramVector {
         for(int i = 0; i<n; i++){
             vect[i] = sc.nextDouble();
         }
+
         double soma = 0;
+        
         for(int i = 0; i<n; i++){
             soma = soma + vect[i];
         }
+
         double avg = soma/n;
         System.out.printf("AVERAGE: %.2f", avg);
 
