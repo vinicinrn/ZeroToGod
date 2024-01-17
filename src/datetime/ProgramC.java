@@ -10,7 +10,7 @@ public class ProgramC {
 
         LocalDate d04 = LocalDate.parse("2022-07-20");
         LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26"); //PA DRAO ISO8601
-        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z"); //DATA E HORA COM TIMEZONE UTC
 
         // https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
 

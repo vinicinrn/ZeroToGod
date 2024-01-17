@@ -37,7 +37,7 @@ public class ProgramA {
         System.out.println("d08= " +d08);
         System.out.println("d09= " +d09);
         System.out.println("d10= " +d10);
-        System.out.println("d11= " +d10);
+        System.out.println("d11= " +d11);
 
     }
 }

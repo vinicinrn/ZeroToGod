@@ -1,0 +1,23 @@
+
+Primeira vez subindo atualizações no repo:
+git push -u origin/main
+ 
+Verificar log de alterações:
+git log
+
+Voltar arquivos modificados temporariamente:
+git checkout idDeCommit
+
+Voltar arquivos modificados de acordo com o HEAD
+-HEAD~1 > volta pro penúltimo commmit
+
+Limpar alteraçãoes depois de ter entrado num commit (BOA PRÁTICA!)
+- git reset 
+- git clean -df
+- git checkout -- .
+
+Retornando pra main?
+git checkout main
+
+O que ignorar de arquivos? pesquisar > .java gitignore
+
